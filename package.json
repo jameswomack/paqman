@@ -1,0 +1,44 @@
+{
+  "name": "paqman",
+  "version": "1.0.0",
+  "description": "Perform tasks relative to your package.json, such as requiring",
+  "main": "lib/paqman.js",
+  "config": {
+    "blanket": {
+      "data-cover-never": "node_modules",
+      "pattern": "lib/paqman.js"
+    }
+  },
+  "scripts": {
+    "cover": "mocha -R html-cov --require blanket > coverage.html && open coverage.html",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/paqman.git"
+  },
+  "keywords": [
+    "require",
+    "relative",
+    "root",
+    "cwd",
+    "package",
+    "json"
+  ],
+  "author": "james@womack.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswomack/paqman/issues"
+  },
+  "homepage": "https://github.com/jameswomack/paqman#readme",
+  "dependencies": {
+    "lru-cache": "^2.6.4"
+  },
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  }
+}
