@@ -1,6 +1,6 @@
 {
   "name": "paqman",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Perform tasks relative to your package.json, such as requiring",
   "main": "lib/paqman.js",
   "config": {
