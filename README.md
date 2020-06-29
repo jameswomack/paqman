@@ -1,5 +1,4 @@
-<img src="https://www.dropbox.com/s/mr4lt2ihbvjg1ka/paqman.gif?dl=1" width="600" />
-
+<img src="https://user-images.githubusercontent.com/77849/86050078-1ac76000-ba08-11ea-8277-e6430324de96.png" width="600" />
 
 <br>
 <br>
